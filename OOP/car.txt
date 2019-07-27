@@ -1,0 +1,17 @@
+PH-12-BJF Sedan Ford Focus
+PH-03-EFM Coupe Ford Mustang
+BN-17-SSD Sport Volkswagen Golf
+CJ-08-PRU Tractor Volkswagen Passat
+B-400-DRT SUV Dacia Duster
+AG-08-DRT SUV Dacia LoganBrek
+B-599-PID Tractor Mercedes Merzan
+CJ-68-DIF Sedan Toyota Yaris
+CJ-48-RNA Hybrid Tesla ModelX
+AB-88-LAB Sport Mazda CX9
+SJ-55-ASD Sedan Toyota Camri
+MM-08-HCC Sport Volkswagen Golf
+BN-08-HDD Sport BMW Seriesx5
+CJ-49-PBG SUV BMW Seriesx2
+BH-23-YUT Tractor Mercedes Merzan
+AB-10-TBM Hybrid Tesla ModelY
+
