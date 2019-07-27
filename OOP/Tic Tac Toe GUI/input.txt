@@ -1,0 +1,14 @@
+2 3 XO--XO--- X InDerulare
+1 3 O-X-X---- X InDerulare
+3 3 XXXO--O-- O Terminat
+7 4 --X--O--X O Neinceput
+8 4 XXOOX--OO--X---- X InDerulare
+8 3 --------- X Neinceput
+6 5 ------------------------- X Neinceput
+4 4 XO-------------- X Neinceput
+4 3 XOXOXOXOX O Terminat
+10 3 --------- X Neinceput
+10 3 ----XO--- O InDerulare
+10 3 XOXOXOXOX O Terminat
+10 3 --------- X Neinceput
+10 3 ----XO--- O InDerulare
