@@ -1,0 +1,25 @@
+package TaskRunner;
+import Task.*;
+
+public interface TaskRunner {
+    /*
+    *   Executes a task from the collection
+    *   of executable tasks
+    */
+    void executeOneTask();
+
+    /*
+    *   Executes all the tasks
+    */
+    void executeAll();
+
+    /*
+    *   Adds the Task T in the executable Task list
+    */
+    void addTask(Task t);
+
+    /*
+    *   Checks if there are any executable tasks
+    */
+    boolean hasTask();
+}
