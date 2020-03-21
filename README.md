@@ -22,5 +22,9 @@ Semester 3 :
   *  Functional and Logic Programming
   *  Probabilities and Statistics
     
-//more tba
-    
+Semester 4 :
+  *  Systems for Programming and Design
+  *  Web Programming
+  *  Artificial Intelligence
+  *  Database Management Systems
+  *  Software Engineering
