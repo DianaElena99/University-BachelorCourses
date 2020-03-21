@@ -1,0 +1,3 @@
+Java : gradle, spring, log4j2
+C# : log4net
+Database used : SQLite
