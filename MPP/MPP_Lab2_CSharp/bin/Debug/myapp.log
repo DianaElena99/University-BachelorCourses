@@ -1,0 +1,303 @@
+2020-03-19 17:11:44,734 [1] DEBUG Logger ConcertRepo - Entered Concert Repo > cauta detalii concerte 
+2020-03-19 17:11:44,822 [1] DEBUG Logger ConcertRepo - CONCERT REPO - Cauta concerte dupa data
+2020-03-19 17:11:44,830 [1] DEBUG Logger ConcertRepo - User repository created
+2020-03-19 17:19:40,720 [1] DEBUG Logger ConcertRepo - Entered Concert Repo > cauta detalii concerte 
+2020-03-19 17:19:40,810 [1] DEBUG Logger ConcertRepo - CONCERT REPO - Cauta concerte dupa data
+2020-03-19 17:19:40,817 [1] DEBUG Logger ConcertRepo - User repository created
+2020-03-19 18:07:40,733 [1] DEBUG Logger ConcertRepo - Entered Concert Repo > cauta detalii concerte 
+2020-03-19 18:07:40,828 [1] DEBUG Logger ConcertRepo - CONCERT REPO - Cauta concerte dupa data
+2020-03-19 18:07:40,836 [1] DEBUG Logger ConcertRepo - User repository created
+2020-03-19 18:23:24,306 [1] DEBUG Logger ConcertRepo - Entered Concert Repo > cauta detalii concerte 
+2020-03-19 18:23:24,413 [1] DEBUG Logger ConcertRepo - CONCERT REPO - Cauta concerte dupa data
+2020-03-19 18:23:24,420 [1] DEBUG Logger ConcertRepo - User repository created
+2020-03-19 18:23:29,902 [1] DEBUG Logger ConcertRepo - Verificare credentiale
+2020-03-19 18:23:29,943 [1] DEBUG Logger ConcertRepo - Entered Concert Repo > cauta detalii concerte 
+2020-03-19 18:24:38,118 [1] DEBUG Logger ConcertRepo - Entered Concert Repo > cauta detalii concerte 
+2020-03-19 18:24:38,206 [1] DEBUG Logger ConcertRepo - CONCERT REPO - Cauta concerte dupa data
+2020-03-19 18:24:38,213 [1] DEBUG Logger ConcertRepo - User repository created
+2020-03-19 18:24:42,492 [1] DEBUG Logger ConcertRepo - Verificare credentiale
+2020-03-19 18:24:42,515 [1] DEBUG Logger ConcertRepo - Entered Concert Repo > cauta detalii concerte 
+2020-03-19 18:25:09,772 [1] DEBUG Logger ConcertRepo - Cauta concert dupa id
+2020-03-19 18:25:09,780 [1] INFO Logger for BiletRepo - Entered function SaveBilet
+2020-03-19 18:25:09,791 [1] INFO Logger for BiletRepo - Exiting function SaveBilet
+2020-03-19 18:25:09,793 [1] DEBUG Logger ConcertRepo - Entered concert repo > updateLocuriLibere
+2020-03-19 18:25:09,796 [1] DEBUG Logger ConcertRepo - Actualizare nr locuri libere.
+2020-03-19 18:25:09,805 [1] DEBUG Logger ConcertRepo - Entered Concert Repo > cauta detalii concerte 
+2020-03-19 18:25:22,133 [1] DEBUG Logger ConcertRepo - CONCERT REPO - Cauta concerte dupa data
+2020-03-19 18:25:29,471 [1] DEBUG Logger ConcertRepo - CONCERT REPO - Cauta concerte dupa data
+2020-03-19 18:25:35,915 [1] DEBUG Logger ConcertRepo - CONCERT REPO - Cauta concerte dupa data
+2020-03-19 21:07:49,996 [1] INFO Logger ConcertRepo - 
+Created a concert repo 
+
+2020-03-19 21:07:50,015 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-19 21:07:50,133 [1] DEBUG Logger ConcertRepo - 
+CONCERT REPO - Cauta concerte dupa data
+
+2020-03-19 21:07:50,141 [1] DEBUG Logger ConcertRepo - User repository created
+2020-03-19 21:07:54,905 [1] DEBUG Logger ConcertRepo - Verificare credentiale
+2020-03-19 21:07:54,949 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-19 21:09:31,515 [1] INFO Logger ConcertRepo - 
+Created a concert repo 
+
+2020-03-19 21:09:31,525 [1] INFO Logger for BiletRepo - 
+ User repo created 
+
+2020-03-19 21:09:31,535 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-19 21:09:31,630 [1] DEBUG Logger ConcertRepo - 
+CONCERT REPO - Cauta concerte dupa data
+
+2020-03-19 21:09:31,632 [1] INFO Logger for BiletRepo - 
+ Finding the number of tickets sold so far
+
+2020-03-19 21:09:31,639 [1] DEBUG Logger ConcertRepo - User repository created
+2020-03-19 21:09:31,639 [1] INFO Logger for BiletRepo - 
+ Finding the number of tickets sold so far
+
+2020-03-19 21:09:36,649 [1] DEBUG Logger ConcertRepo - Verificare credentiale
+2020-03-19 21:09:36,667 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-20 07:42:38,961 [1] INFO Logger ConcertRepo - 
+Created a concert repo 
+
+2020-03-20 07:42:38,972 [1] INFO Logger for BiletRepo - 
+ User repo created 
+
+2020-03-20 07:42:38,983 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-20 07:42:39,095 [1] DEBUG Logger ConcertRepo - 
+CONCERT REPO - Cauta concerte dupa data
+
+2020-03-20 07:42:39,098 [1] INFO Logger for BiletRepo - 
+ Finding the number of tickets sold so far
+
+2020-03-20 07:42:39,108 [1] DEBUG Logger ConcertRepo - User repository created
+2020-03-20 07:42:39,108 [1] INFO Logger for BiletRepo - 
+ Finding the number of tickets sold so far
+
+2020-03-20 07:42:43,099 [1] DEBUG Logger ConcertRepo - Verificare credentiale
+2020-03-20 07:42:43,165 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-20 07:42:47,207 [1] DEBUG Logger ConcertRepo - 
+CONCERT REPO - Cauta concerte dupa data
+
+2020-03-20 07:42:58,813 [1] DEBUG Logger ConcertRepo - 
+CONCERT REPO - Cauta concerte dupa data
+
+2020-03-20 07:43:05,531 [1] DEBUG Logger ConcertRepo - 
+CONCERT REPO - Cauta concerte dupa data
+
+2020-03-20 07:43:08,213 [1] DEBUG Logger ConcertRepo - 
+CONCERT REPO - Cauta concerte dupa data
+
+2020-03-20 07:43:12,136 [1] DEBUG Logger ConcertRepo - 
+CONCERT REPO - Cauta concerte dupa data
+
+2020-03-20 07:43:16,279 [1] DEBUG Logger ConcertRepo - 
+CONCERT REPO - Cauta concerte dupa data
+
+2020-03-20 07:43:36,150 [1] DEBUG Logger ConcertRepo - 
+Cauta concert dupa id
+
+2020-03-20 07:43:36,155 [1] INFO Logger for BiletRepo - 
+ Entered function SaveBilet
+ 
+2020-03-20 07:43:36,172 [1] INFO Logger for BiletRepo - Exiting function SaveBilet
+2020-03-20 07:43:36,174 [1] DEBUG Logger ConcertRepo - 
+Entered concert repo > updateLocuriLibere
+
+2020-03-20 07:43:36,178 [1] DEBUG Logger ConcertRepo - 
+Actualizare nr locuri vandute.
+
+2020-03-20 07:43:36,190 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-20 07:44:30,189 [1] INFO Logger ConcertRepo - 
+Created a concert repo 
+
+2020-03-20 07:44:30,219 [1] INFO Logger for BiletRepo - 
+ User repo created 
+
+2020-03-20 07:44:30,231 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-20 07:44:30,340 [1] DEBUG Logger ConcertRepo - 
+CONCERT REPO - Cauta concerte dupa data
+
+2020-03-20 07:44:30,343 [1] INFO Logger for BiletRepo - 
+ Finding the number of tickets sold so far
+
+2020-03-20 07:44:30,349 [1] DEBUG Logger ConcertRepo - User repository created
+2020-03-20 07:44:30,349 [1] INFO Logger for BiletRepo - 
+ Finding the number of tickets sold so far
+
+2020-03-20 08:01:54,724 [1] INFO Logger ConcertRepo - 
+Created a concert repo 
+
+2020-03-20 08:01:54,736 [1] INFO Logger for BiletRepo - 
+ User repo created 
+
+2020-03-20 08:01:54,747 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-20 08:01:54,885 [1] DEBUG Logger ConcertRepo - 
+CONCERT REPO - Cauta concerte dupa data
+
+2020-03-20 08:01:54,888 [1] INFO Logger for BiletRepo - 
+ Finding the number of tickets sold so far
+
+2020-03-20 08:01:54,895 [1] DEBUG Logger ConcertRepo - User repository created
+2020-03-20 08:01:54,895 [1] INFO Logger for BiletRepo - 
+ Finding the number of tickets sold so far
+
+2020-03-20 08:01:58,735 [1] DEBUG Logger ConcertRepo - Verificare credentiale
+2020-03-20 08:01:58,774 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-20 08:02:08,794 [1] DEBUG Logger ConcertRepo - 
+Cauta concert dupa id
+
+2020-03-20 08:02:08,801 [1] INFO Logger for BiletRepo - 
+ Entered function SaveBilet
+ 
+2020-03-20 08:02:08,817 [1] INFO Logger for BiletRepo - Exiting function SaveBilet
+2020-03-20 08:02:08,817 [1] DEBUG Logger ConcertRepo - 
+Entered concert repo > updateLocuriLibere
+
+2020-03-20 08:02:08,822 [1] DEBUG Logger ConcertRepo - 
+Actualizare nr locuri vandute.
+
+2020-03-20 08:02:08,831 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-20 08:03:59,895 [1] INFO Logger ConcertRepo - 
+Created a concert repo 
+
+2020-03-20 08:03:59,907 [1] INFO Logger for BiletRepo - 
+ User repo created 
+
+2020-03-20 08:03:59,917 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-20 08:04:00,023 [1] DEBUG Logger ConcertRepo - 
+CONCERT REPO - Cauta concerte dupa data
+
+2020-03-20 08:04:00,026 [1] INFO Logger for BiletRepo - 
+ Finding the number of tickets sold so far
+
+2020-03-20 08:04:00,032 [1] DEBUG Logger ConcertRepo - User repository created
+2020-03-20 08:04:00,032 [1] INFO Logger for BiletRepo - 
+ Finding the number of tickets sold so far
+
+2020-03-20 08:04:03,591 [1] DEBUG Logger ConcertRepo - Verificare credentiale
+2020-03-20 08:04:03,619 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-20 08:04:18,355 [1] DEBUG Logger ConcertRepo - 
+Cauta concert dupa id
+
+2020-03-20 08:04:18,363 [1] INFO Logger for BiletRepo - 
+ Entered function SaveBilet
+ 
+2020-03-20 08:04:18,379 [1] INFO Logger for BiletRepo - Exiting function SaveBilet
+2020-03-20 08:04:18,379 [1] DEBUG Logger ConcertRepo - 
+Entered concert repo > updateLocuriLibere
+
+2020-03-20 08:04:18,384 [1] DEBUG Logger ConcertRepo - 
+Actualizare nr locuri vandute.
+
+2020-03-20 08:04:18,392 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-20 08:09:46,642 [1] INFO Logger ConcertRepo - 
+Created a concert repo 
+
+2020-03-20 08:09:46,660 [1] INFO Logger for BiletRepo - 
+ User repo created 
+
+2020-03-20 08:09:46,675 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-20 08:09:46,836 [1] DEBUG Logger ConcertRepo - 
+CONCERT REPO - Cauta concerte dupa data
+
+2020-03-20 08:09:46,841 [1] INFO Logger for BiletRepo - 
+ Finding the number of tickets sold so far
+
+2020-03-20 08:09:46,856 [1] DEBUG Logger ConcertRepo - User repository created
+2020-03-20 08:09:46,856 [1] INFO Logger for BiletRepo - 
+ Finding the number of tickets sold so far
+
+2020-03-20 08:09:50,540 [1] DEBUG Logger ConcertRepo - Verificare credentiale
+2020-03-20 08:09:50,602 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-20 08:10:01,899 [1] DEBUG Logger ConcertRepo - 
+Cauta concert dupa id
+
+2020-03-20 08:10:01,907 [1] INFO Logger for BiletRepo - 
+ Entered function SaveBilet
+ 
+2020-03-20 08:10:01,923 [1] INFO Logger for BiletRepo - Exiting function SaveBilet
+2020-03-20 08:10:01,923 [1] DEBUG Logger ConcertRepo - 
+Entered concert repo > updateLocuriLibere
+
+2020-03-20 08:10:01,928 [1] DEBUG Logger ConcertRepo - 
+Actualizare nr locuri vandute.
+
+2020-03-20 08:10:01,937 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-20 08:28:53,770 [1] INFO Logger ConcertRepo - 
+Created a concert repo 
+
+2020-03-20 08:28:53,784 [1] INFO Logger for BiletRepo - 
+ User repo created 
+
+2020-03-20 08:28:53,798 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-20 08:28:53,944 [1] DEBUG Logger ConcertRepo - 
+CONCERT REPO - Cauta concerte dupa data
+
+2020-03-20 08:28:53,949 [1] INFO Logger for BiletRepo - 
+ Finding the number of tickets sold so far
+
+2020-03-20 08:28:53,959 [1] DEBUG Logger ConcertRepo - User repository created
+2020-03-20 08:28:53,959 [1] INFO Logger for BiletRepo - 
+ Finding the number of tickets sold so far
+
+2020-03-20 08:28:59,689 [1] DEBUG Logger ConcertRepo - Verificare credentiale
+2020-03-20 08:28:59,730 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
+2020-03-20 08:29:03,184 [1] DEBUG Logger ConcertRepo - 
+CONCERT REPO - Cauta concerte dupa data
+
+2020-03-20 08:29:05,887 [1] DEBUG Logger ConcertRepo - 
+CONCERT REPO - Cauta concerte dupa data
+
+2020-03-20 08:29:11,416 [1] DEBUG Logger ConcertRepo - 
+Cauta concert dupa id
+
+2020-03-20 08:29:11,431 [1] INFO Logger for BiletRepo - 
+ Entered function SaveBilet
+ 
+2020-03-20 08:29:11,447 [1] INFO Logger for BiletRepo - Exiting function SaveBilet
+2020-03-20 08:29:11,447 [1] DEBUG Logger ConcertRepo - 
+Entered concert repo > updateLocuriLibere
+
+2020-03-20 08:29:11,454 [1] DEBUG Logger ConcertRepo - 
+Actualizare nr locuri vandute.
+
+2020-03-20 08:29:11,466 [1] DEBUG Logger ConcertRepo - 
+Entered Concert Repo > cauta detalii concerte 
+
