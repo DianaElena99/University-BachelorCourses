@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\MAP_Lab\MAP_Lab\bin\Debug\MAP_Lab.exe.config
+C:\Users\user\source\repos\MAP_Lab\MAP_Lab\bin\Debug\MAP_Lab.exe
+C:\Users\user\source\repos\MAP_Lab\MAP_Lab\bin\Debug\MAP_Lab.pdb
+C:\Users\user\source\repos\MAP_Lab\MAP_Lab\obj\Debug\MAP_Lab.csprojAssemblyReference.cache
+C:\Users\user\source\repos\MAP_Lab\MAP_Lab\obj\Debug\MAP_Lab.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\MAP_Lab\MAP_Lab\obj\Debug\MAP_Lab.exe
+C:\Users\user\source\repos\MAP_Lab\MAP_Lab\obj\Debug\MAP_Lab.pdb

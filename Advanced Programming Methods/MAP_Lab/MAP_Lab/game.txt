@@ -1,0 +1,6 @@
+﻿1|Los Angeles Lackers|Detroit Pistons|2019-10-01
+2|Detroit Pistons|MiamiHeat|2019-10-12
+3|MiamiHeat|Los Angeles Lackers|2019-10-30
+4|New Orleans Pelicans|Los Angeles Lackers|2019-11-03
+5|MiamiHeat|Dallas Mavericks|2019-11-11
+6|Dallas Mavericks|Detroit Pistons|2019-11-26
