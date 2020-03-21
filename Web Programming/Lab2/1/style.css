@@ -1,0 +1,13 @@
+.main{
+  display: flex;
+  width: 600px;
+  background-color: cyan;
+  border: 1px solid;
+}
+
+.content{
+  width: 200px;
+  align-self: center;
+  text-align: center;
+  font-size: 20px;
+}

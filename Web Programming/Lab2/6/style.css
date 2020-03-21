@@ -1,0 +1,33 @@
+*{
+    font-family: 'Courier';
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+}
+
+li{
+    text-align: right;
+}
+
+h4{
+    display: inline;
+    font-size: 30px;
+}
+
+.nume, .prenume, .cnp{
+    margin-top: 20px;
+    height: 40px;
+    width: 750px;
+    margin-left: 50px;
+    font-size: 35px;
+    letter-spacing: 23px;
+    background-image: url(box.png);
+    border : 2px solid;
+}
+
+.cnp{
+    position: relative;
+    width: 570px;
+}

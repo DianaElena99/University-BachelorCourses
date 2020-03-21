@@ -1,0 +1,37 @@
+#container{
+  height: 100%;
+  background-color: darkslategray;
+}
+ul{
+  list-style-type: none;
+  display: block;
+}
+
+p{
+  margin-top: 15px;
+  margin-right: 5px;
+}
+
+li{
+  margin-top: 15px;
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 500px;
+    height: 250px;
+    background-color: lightseagreen;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #eee;
+  }
+  
+  div.gallery img {
+    float:left;
+    width: 200px;
+    height:200px;
+  }
+  
