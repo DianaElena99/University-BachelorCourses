@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery 1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script >
+    $(document).ready(function() {
+        $("button").click(function(){
+            $("p").fadeOut();
+        });
+
+        $("option").dblclick(function(){
+           alert("double clicked");
+        });
+    });​
+        
+</script>
+
+</head>
+<body>
+        <button>Beton</button>
+        <br><p>some text that will dissapear</p>
+
+        <select size=10 id = "list1" >
+          <option value="1">item1</option>
+          <option  value="2">item2</option>
+          <option  value="3">item3</option>
+          <option  value="4">item4</option>
+          <option  value="5">item5</option>
+          <option  value="6">item6</option>
+          <option  value="7">item7</option>
+        </select>
+    
+        <select size=10 id="list2">
+          <option value="a">a</option>
+          <option value="b">b</option>
+          <option value="c">c</option>
+          <option value="d">d</option>
+          <option value="e">e</option>
+          <option value="f">f</option>
+        </select>
+    
+    
+</body>
+</html>

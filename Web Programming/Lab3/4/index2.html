@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sortable Table</title>
+
+    <style>
+      table tr:first-child{
+        background-color: teal;
+        color:white;
+      }
+      table tr:nth-child(even){
+        background-color: azure;
+      }
+
+    th {
+      cursor: pointer;
+    }
+    </style>
+
+</head>
+<body>
+
+    <table id="first">
+        <tr>
+            <td onclick="bubbleSortTable('first', 0, 'asc');">Autor</td>
+            <td onclick="bubbleSortTable('first', 1, 'asc');">Titlu</td>
+            <td onclick="bubbleSortTable('first', 2, 'asc');">Rating</td>
+        </tr>
+        <tr>
+            <td>Vancea Alexandru</td>
+            <td>Arhitectura Calculatoarelor x86</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>Andrew Tannenbaum</td>
+            <td>Retele de calculatoare</td>
+            <td>84</td>
+        </tr>
+        <tr>
+            <td>Yuval Harari</td>
+            <td>Sapiens: Brief History of HumanKind</td>
+            <td>99</td>
+        </tr>
+        <tr>
+            <td>Alexandre Dumas</td>
+            <td>The Count of Monte Cristo</td>
+            <td>93</td>
+        </tr>
+        <tr>
+            <td>Leo Tolstoi</td>
+            <td>Anna Karenina</td>
+            <td>85</td>
+        </tr>
+    </table>
+
+<br><br>
+
+<table id="second">
+    <tr>
+            <td onclick="bubbleSortTable('second', 0, 'asc');">Company Name</td>
+            <td onclick="bubbleSortTable('second', 1, 'asc');">Country</td>
+            <td onclick="bubbleSortTable('second', 2, 'asc');">Rating</td>
+    </tr>
+    <tr>
+      <td>Volvo</td>
+      <td>Sweden</td>
+      <td>99</td>
+    </tr>
+    <tr>
+      <td>Cambridge</td>
+      <td>UK</td>
+      <td>95</td>
+    </tr>
+    <tr>
+      <td>Koeber</td>
+      <td>Germany</td>
+      <td>86</td>
+    </tr>
+    <tr>
+      <td>Barilla</td>
+      <td>Italy</td>
+      <td>95</td>
+    </tr>
+    <tr>
+      <td>Le BonBon</td>
+      <td>France</td>
+      <td>93</td>
+    </tr>
+  
+  </table>
+
+</body>
+
+<script src="main.js"></script>
+</html>

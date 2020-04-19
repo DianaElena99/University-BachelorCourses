@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+  </head>
+  <body>
+   
+    <script>
+        function validate(){
+           var err = checkData();
+           if (err === ""){
+               alert("OKi Doki");
+           }
+           else{
+               alert(err);
+           }
+        }
+
+        function checkData(){
+            var name = document.getElementById("name_txt")
+            var birth = document.getElementById("birth_txt")
+            var age = document.getElementById("age_txt")
+            var email = document.getElementById("email_txt")
+            var str_name = name.value
+            var birth_date = birth.value
+            var age_txt = age.value
+            var email_txt = email.value
+            var errors = ""
+
+            if(str_name === "" || str_name.length < 3 ){
+                document.getElementById("name_txt").style.borderColor="#FF0000";
+                errors += " Nume prea scurt; "
+            } 
+            else{
+                document.getElementById("name_txt").style.borderColor="green"
+            }
+            if (email_txt === "" || email_txt.length < 6){
+                document.getElementById("email_txt").style.borderColor="#FF0000";
+                errors += "adresa invalida; "
+            }
+            else{
+                document.getElementById("email_txt").style.borderColor="green"
+            }
+            if (birth_date == ""){
+                document.getElementById("birth_txt").style.borderColor="#FF0000";
+                errors += "data nasterii invalida; "
+            }
+            else{
+                document.getElementById("birth_txt").style.borderColor="green"
+            }
+            if (age_txt < 20 || age_txt > 60 || age_txt==""){
+                document.getElementById("age_txt").style.borderColor="#FF0000";
+                errors += " varsta invalida ."
+            }
+            else if (age_txt >=20 && age_txt<=60){
+                document.getElementById("age_txt").style.borderColor="green"
+            }
+            return errors;
+        }
+    </script>
+    <form action="" method="post">   
+      <ls>
+          <ul>Name: <input name="name" type="text" id="name_txt" onchange="checkData()"></ul>
+          <ul>Birth: <input name="birth" type="date" id="birth_txt" onchange="checkData()"></ul>
+          <ul>Age: <input name="age" type="number" min="20" max="60" id="age_txt" onchange="checkData()"></ul>
+          <ul>Email: <input name="email" type="text" id="email_txt" onchange="checkData()"></ul>
+          <ul><input type="submit" name="submit_btn" id="sub_id" onclick="validate()"></ul>
+      </ls>    
+    </form>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+}
+
+table tr td {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+table tr td:first-child {
+    padding-right: 16px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+table tr :first-child{
+    background-color: dodgerblue;
+}
+
+table tr:last-child {
+    border-bottom: none;
+}

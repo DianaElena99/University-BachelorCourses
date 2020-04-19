@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      function functie(L1_ID, L2_ID){
+        var L1 = document.getElementById(L1_ID)
+        var ToMove = L1.options[L1.selectedIndex]
+        L1.remove(L1.selectedIndex)
+        var L2 = document.getElementById(L2_ID)
+        var opt = document.createElement('option')
+        opt.append(ToMove)
+        L2.appendChild(opt)
+      }
+    </script>
+
+    <form>
+    <select size=10 id = "list1" ondblclick="functie('list1', 'list2')">
+      <option value="1">item1</option>
+      <option value="2">item2</option>
+      <option value="3">item3</option>
+      <option value="4">item4</option>
+      <option value="5">item5</option>
+      <option value="6">item6</option>
+      <option value="7">item7</option>
+    </select>
+
+    <select size=10 id="list2" ondblclick="functie('list2', 'list1')">
+      <option value="a">a</option>
+      <option value="b">b</option>
+      <option value="c">c</option>
+      <option value="d">d</option>
+      <option value="e">e</option>
+      <option value="f">f</option>
+
+    </select>
+    </form>
+
+  </body>
+</html>

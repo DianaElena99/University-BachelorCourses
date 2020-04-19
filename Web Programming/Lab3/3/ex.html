@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table, td{
+      border : 1px solid darkcyan;
+      font-size:30px;
+      margin-top:15px;
+    }
+    tr{
+      margin-top:15px;
+    }
+    td{
+      margin-left:15px;
+      background-color: darkslategrey;
+      color: white;
+    }
+    p{
+      width:50px;
+      height: 50px;
+    }
+    </style>
+
+
+<script type="text/javascript">
+
+function sleep(seconds) 
+{
+  var e = new Date().getTime() + (seconds * 1000);
+  while (new Date().getTime() <= e) {}
+}
+
+  var selectedCards = []
+  var pairs = 0;
+
+  function checkGameOver(){
+    var nr = 0;
+    var tabel = document.getElementById("myTable");
+    var cells = tabel.querySelectorAll("td");
+    for (var i=0; i<cells.length; i++){
+      if (cells[i].childNodes[0].style.color == 'cyan'){
+        nr += 1;
+      }
+    }
+    if (nr === 20){
+      alert("Game over ^^ ")
+      location.reload();
+    }
+  }
+
+  function tableText(t) {
+    nodeList = t.childNodes;
+    if(nodeList[0].style.visibility = 'hidden' ){
+        nodeList[0].style.visibility = 'visible';
+        selectedCards.push( nodeList[0]) ;
+      }
+    
+    if (selectedCards.length === 2){
+      selectedCards[0].style.visibility = 'visible';
+      selectedCards[1].style.visibility = 'visible';
+
+      sleep(2);
+
+       if (selectedCards[0].textContent === selectedCards[1].textContent){
+             selectedCards[0].style.color = 'cyan';
+             selectedCards[1].style.color = 'cyan';
+             checkGameOver();
+
+             selectedCards.pop();
+             selectedCards.pop();
+       }
+       else {
+              selectedCards[0].style.visibility = 'hidden';
+              selectedCards[1].style.visibility = 'hidden';
+             selectedCards.pop();
+             selectedCards.pop();
+          }
+        }
+  }
+  
+  
+
+  function tableCreate() {
+      var previous = document.getElementById("myTable");
+      if ( previous!= null){
+        document.removeChild(previous);
+      }
+      var tab = document.createElement("TABLE");
+      tab.setAttribute("id", "myTable");
+      document.body.appendChild(tab);
+
+      var nr1 = [50,20,10,90,100];
+      var nr2 = [50,20,10,90,100];
+      var nr3 = [99,11,25,55,30];
+      var nr4 = [99,11,25,55,30];
+      //amestecam numerele in arrays
+
+      Array.prototype.shuffle = function(){
+        for (var i = 0; i < this.length; i++) {
+          var r = parseInt(Math.random() * this.length);
+          var obj = this[r];
+          this[r] = this[i];
+          this[i] = obj;
+        }
+      }
+
+      nr1.shuffle()
+      nr2.shuffle()
+      nr3.shuffle()
+      nr4.shuffle()
+
+      //se populeaza tabela
+      for (var i=0 ; i<4; i++){  // for care genereaza randurile din tabela
+        var row = document.createElement("TR");
+        row.setAttribute("id", "row" + i);
+        document.getElementById("myTable").appendChild(row);
+        for (var j=0; j<5; j++){  // for care genereaza celulele din fiecare rand
+          var z = document.createElement("TD");
+          var chosen = 0;
+          if (i == 0){
+            chosen = nr1[0];
+            nr1.splice(0,1);
+          }
+          if (i==1){
+            chosen = nr2[0];
+            nr2.splice(0,1);
+          }
+
+          if (i == 2){
+            chosen = nr3[0];
+            nr3.splice(0,1);
+          }
+          if (i==3){
+            chosen = nr4[0];
+            nr4.splice(0,1);
+          }
+
+          var t = document.createElement("P");
+          t.appendChild(document.createTextNode(chosen))
+          t.style.visibility = 'hidden';
+          z.appendChild(t);
+          z.onclick = function () {
+            tableText(this);
+          };
+          document.getElementById("row" + i).appendChild(z);
+        }
+      }
+    
+  }
+
+</script>
+</head>
+<body>
+ <i> <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Memory game</h1></i><br><br>
+ <button style="background-color: rgb(8, 54, 39); color: white; font-size: 20px;" onclick="tableCreate()">Incepe jocul</button>
+</body>
+</html>

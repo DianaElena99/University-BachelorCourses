@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        
+        <title>Sortable table</title>
+        
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        
+        <script src="js/sortTable.js"></script>
+    </head>
+    
+    <body>
+        <table id="table1">
+            <tbody>
+                <tr>
+                    <td onclick="bubbleSortTable('table1', 0, 'asc');">Fructe</td>
+                    <td>Mere</td>
+                    <td>Pere</td>
+                    <td>Caise</td>
+                    <td>Piersici</td>
+                </tr>
+                <tr>
+                    <td onclick="bubbleSortTable('table1', 1, 'asc');">Pret</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td onclick="bubbleSortTable('table1', 2, 'asc');">Cantitate</td>
+                    <td>8</td>
+                    <td>6</td>
+                    <td>4</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td onclick="bubbleSortTable('table1', 3, 'asc');">Stoc</td>
+                    <td>18</td>
+                    <td>8</td>
+                    <td>14</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td onclick="bubbleSortTable('table1', 4, 'asc');">StringSiNumar</td>
+                    <td>18</td>
+                    <td>str1</td>
+                    <td>14</td>
+                    <td>str2</td>
+                </tr>
+            </tbody>
+        </table>
+<br><br>
+        <table id="table2">
+            <tbody>
+                <tr>
+                    <td onclick="bubbleSortTable('table2', 0, 'asc');">Artist</td>
+                    <td>Bufny</td>
+                    <td>Queen</td>
+                    <td>Chopin</td>
+                    <td>Paganinni</td>
+                </tr>
+                <tr>
+                    <td onclick="bubbleSortTable('table2', 1, 'asc');">Melodie</td>
+                    <td>Ne vedem la restanta</td>
+                    <td>Bohemian Rhaphsody</td>
+                    <td>Nocturne C#</td>
+                    <td>24th caprice</td>
+                </tr>
+                <tr>
+                    <td onclick="bubbleSortTable('table2', 2, 'asc');">Rating pe spotify</td>
+                    <td>10000</td>
+                    <td>99</td>
+                    <td>100</td>
+                    <td>90</td>
+                </tr>
+                <!--
+                <tr>
+                    <td onclick="bubbleSortTable('table2', 3, 'asc');">Coloana de umplutura</td>
+                    <td>18</td>
+                    <td>str1</td>
+                    <td>14</td>
+                    <td>str2</td>
+                </tr>
+                -->
+            </tbody>
+        </table>
+
+    </body>
+</html>
