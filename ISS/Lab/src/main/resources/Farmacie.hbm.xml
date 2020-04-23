@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name = "Model.User" table = "user">
+        <meta attribute = "class-description">
+            This class contains the user detail
+        </meta>
+
+        <id name="email" type="string" column="email">
+        </id>
+
+        <property name="passwd" column="passwd" type="string"/>
+        <property name="section" column="section" type="string"/>
+        <property name="type" column="tip" type="string"/>
+
+    </class>
+
+    <class name="Model.Medicament" table="medicament">
+        <meta attribute="class-description">
+            This class contains medicine details
+        </meta>
+
+        <id name="id" type="int" column="cod">
+            <generator class="native"/>
+        </id>
+        <property name="nume" column="nume" type="string"/>
+        <property name="pret" column="pret" type="float"/>
+        <property name="cantitateDisp" column="cantitate" type="int"/>
+    </class>
+
+    <class name="Model.Comanda" table = "comanda">
+        <meta attribute="class-description">
+            comenzi
+        </meta>
+        <id name="cod" type="int" column="id">
+            <generator class="native"/>
+        </id>
+
+        <property name="email" column="email" type="string"/>
+        <property name="sectie" column="sectie" type="string"/>
+        <property name="subtotal" column="subtotal" type="float"/>
+    </class>
+
+    <class name="Model.MedicamentComanda" table="medicamentcomanda">
+        <composite-id>
+            <key-property name="idComanda" column="codComanda" type="int"/>
+            <key-property name="idMedicament" column="codMedicament" type="int"/>
+        </composite-id>
+        <property name="cantitateComandata" type="int" column="cantitateComandata"/>
+    </class>
+
+</hibernate-mapping>
