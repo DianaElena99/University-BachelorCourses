@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="Model.User" table = "user">
+        <meta attribute = "class-description">
+            This class contains the user detail
+        </meta>
+
+        <id name="id" type="int" column="id"> <generator class="native"/></id>
+
+        <property name="email" column="email" type="string"/>
+        <property name="passwd" column="passwd" type="string"/>
+    </class>
+
+    <class name="Model.Artist" table="artist">
+        <id name = "id" type="int" column = "id"><generator class="native"/></id>
+        <property name="nume" column="nume" type="string"/>
+
+    </class>
+
+    <class name="Model.Locatie" table="locatie">
+        <id name="id" type="int" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="nume" column="nume" type="string"/>
+        <property name="nrLocuri" column="nrLocuri" type="int"/>
+    </class>
+
+    <class name="Model.Bilet" table="bilet">
+        <id name="id" type="int" column="id"><generator class="native"/></id>
+        <property name="client" column="client" type="string"/>
+        <property name="idConcert" column="idConcert" type="int"/>
+        <property name="nrLocuri" column="nrLocuri" type="int"/>
+    </class>
+
+    <class name="Model.Concert" table="concert">
+        <id name="id" type="int" column="id"><generator class="native"/></id>
+        <property name="idArtist" column="idArtist" type="int"/>
+        <property name="idLocatie" column="idLocatie" type="int"/>
+        <property name="data" column="data" type="string"/>
+        <property name="nrLocuri" column="nrLocuri" type="int"/>
+    </class>
+
+</hibernate-mapping>
