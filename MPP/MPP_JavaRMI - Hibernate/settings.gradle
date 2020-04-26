@@ -1,0 +1,4 @@
+rootProject.name = 'MPP_JavaRMI'
+include 'Client'
+include 'Server'
+include 'CommonProject'
