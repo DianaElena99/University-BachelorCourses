@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <style>
+            fieldset{
+                width: 270px;
+            }
+
+            input{
+                border: solid darkcyan 1px;
+            }
+
+            .error{
+                border: solid crimson 1.5px;
+                }
+        </style>
+    </head>
+    <body>
+        <form>
+           <fieldset>
+                <legend>Formular</legend>
+                <input id="name" type="text" placeholder="name"><br>
+                <input id="birth" type="date" placeholder="Data nașterii"><br>
+                <input id="age" type="number" placeholder="age"><br>
+                <input id="email" type="email" placeholder="adresa email"><br><br>
+                <input id="trimite" type="button" value="send"> 
+            </fieldset>
+        </form>
+    <script>
+
+$(document).ready(function(){
+
+$("#trimite").click(function(){
+
+    var errors = "";
+
+    var name = $("#name");
+
+    var birth = $("#birth");
+
+    var age = $("#age");
+
+    var email = $("#email");
+
+    if(name.val() == ""){
+
+        errors += "Numele invalid!\n"; 
+
+        name.addClass("error");
+
+    }
+
+    else{
+
+        name.removeClass("error");
+
+    }
+
+    if(birth.val() == ""){
+
+        errors += "Data invalida!\n";
+
+        birth.addClass("error");
+
+    }
+
+    else{
+
+        birth.removeClass("error");
+
+    }
+
+    if(age.val() == "" || parseInt(age.val()) < 0){
+
+        errors += "varsta invalida!\n";
+
+        age.addClass("error");
+
+    }
+    else{
+
+        age.removeClass("error");
+
+    }
+
+    if(email.val() == ""){
+
+        errors += "email invalid!\n";
+
+        email.addClass("error");
+
+    }
+
+    else{
+
+        email.removeClass("error");
+
+    }
+
+    if(errors != ""){
+
+        alert("Ceva nu-i ok\n"+errors);
+
+    }
+
+    else{
+
+        confirm("oki doki ^^");
+
+    }
+
+});
+
+});
+    </script>
+    </body>
+</html>

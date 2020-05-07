@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script>
+    /*
+$(document).ready(function(){
+  $('select option').dblclick(function() {
+    $('#selectedOption').val(this.outerHTML);
+    if ($('#list1').contains(this)){
+      $(this).appendTo('#list2');
+    }else{
+      $(this).appendTo('#list1');
+    }
+  });
+});*/
+
+$(document).ready(function(){
+  $("#list1").on('dblclick', 'option', function(){
+    $(this).remove().appendTo("#list2");
+  });
+  $("#list2").on('dblclick', 'option', function(){
+    $(this).remove().appendTo("#list1");
+  });
+});
+</script>
+</head>
+<body>
+
+  <select id="list1" size="10">
+    <option>Option # 1</option>
+    <option>Option # 2</option>
+    <option>Option # 3</option>
+    <option>Option # 4</option>
+  </select>
+  
+  <select id="list2" size="10">
+    <option>item # 1</option>
+    <option>item # 2</option>
+    <option>item # 3</option>
+    <option>item # 4</option>
+  </select>
+
+
+</body>
+</html>
